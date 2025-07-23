@@ -2,25 +2,71 @@
 # Harshil Nagori
 # EnTC A2 
 # 24070123046
-AIM: To study and implement Operators in C++
+Aim
 
-SOFTWARE USED: VS Code
+To learn how decision-making works in C++ using if, else if, and else.
 
-THEORY: Operators in C++ are special symbols used to perform operations on variables and values. Understanding operators is essential for writing logic, calculations, and decision-making code. --Types of Operators
+To check conditions using relational and logical operators.
+Objectives
 
-Arithmetic Operators Used for basic mathematical operations:
-+, -, *, /, % (modulo)
-Relational Operators Used to compare values and return Boolean results:
-==, !=, >, <, >=, <=
-Logical Operators Used to combine or modify Boolean conditions:
-&& (AND), || (OR), ! (NOT)
-Assignment Operators Assign values to variables:
-=, +=, -=, *=, /=
-Increment/Decrement Operators Used to increase or decrease variable values:
-++, -- (both in prefix and postfix forms)
-Bitwise Operators Used for binary-level operations:
-&, |, ^, ~, <<, >>
-Conditional (Ternary) Operator Shorthand for an if-else condition:
-condition ? expr1 : expr2;
-CONCLUSION: Operators form the backbone of C++ programming logic. By understanding how each type works, you can manipulate data, control flow, and evaluate conditions effectively. From basic arithmetic to complex bit manipulation, mastering operators empowers you to write cleaner, more efficient, and powerful code.
+Use if, else if, and else to write programs for:
 
+Checking if a number is positive, negative, or zero.
+
+Giving grades to a student based on average marks.
+
+Finding the quadrant of a point (x, y) in coordinate system.
+
+Understand the use of relational operators like >, <, >=, <=.
+
+Use logical operators like &&, ||, ==.
+Program Description
+Syntax and Flow
+
+First, we declare variables to store user inputs like marks, x, y, etc.
+
+The condition is checked inside parentheses ( ) after if.
+
+The code block that should run when the condition is true is written inside curly braces { }.
+
+If one condition is false, it checks the next using else if. If none match, the else part runs.
+Using If-Else
+
+C++ checks whether a condition is true (1) or false (0).
+
+If it is true, the if block runs.
+
+If false, the next option (else if or else) runs.
+Concepts Used
+
+If-Else statements
+
+Relational Operators: >, <, >=, <=
+
+Logical Operators: && (AND), || (OR), == (equal to)
+Sample Output
+Finding whether the number is positive or negative
+
+Value of a: 17
+Value of b: -8
+A is a +ve number.
+B is a -ve number.
+
+Grade calculator
+
+Marks of subject 1 : 24
+Marks of subject 2 : 76
+Marks of subject 3 : 65
+Marks of subject 4 : 89
+Marks of subject 5 : 94
+Grade A+
+
+Quadrant Finder
+
+Value for x: 7
+Value for y: -4
+4th Quadrant
+
+Value for x: 0
+Value for y: 0
+Origin
